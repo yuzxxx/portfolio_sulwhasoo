@@ -1,0 +1,258 @@
+@charset "utf-8";
+
+.swiper.mainBanner .bg_txt {
+    position: relative;
+    top: 10%;
+    text-align: center;
+    color: #fff;
+}
+.swiper.mainBanner .small_txt {font-size: 20px; margin-bottom: 20px;}
+.swiper.mainBanner .big_txt {font-size:10px; font-weight: 700;}
+
+nav span {
+    position: fixed;
+    width: 35px; height: 40px;
+    top:15px; left: 5%;
+    z-index: 100;
+}
+nav span .menu_area img {display: block; width: 100%;}
+
+
+header {position: fixed;}
+header .gnb {
+    text-align: left; 
+    font-size: 0;
+    margin-top: -7px;
+}
+header .gnb > li {
+    background: #fff;
+    overflow: hidden; 
+    display: block;
+    padding: 10px 18px;
+}
+header .gnb > li > a {
+    display: block;
+    position: relative;
+    padding: 0 5px;
+    line-height: 40px;
+    font-size: 23px;
+    color:#444;
+}
+header .gnb > li:hover > a:before,
+header .gnb > li > a:focus:before {
+    display: none;
+}
+.topHeader .langGroup a > img {padding-left: 10px;}
+
+.topHeader .langGroup {
+    position: relative; 
+    left: 0;
+}
+.langGroup ul li:last-child a{
+    position: absolute; 
+    right: 5%; top: 35%;
+}
+.btnMenu {display: none;}
+header.on .topHeader .logo > a {background-image: url(../img/v_black.png) no-repeat;}
+.langGroup ul li {
+    width: 100%;
+    background: #333;
+    display: block;
+    padding: 20px 18px;
+}
+.langGroup ul {
+    width: 100%;
+    position: absolute;
+    margin-top: 379px;
+}
+.mobile_gnb {
+    display: block;
+    color: #fff;
+}
+.langGroup li:first-child a {
+    display: inline-block;
+    border-bottom: 1px solid #fff;
+}
+.langGroup li:nth-child(3) {
+    border-top: 1px solid #555;
+    padding-bottom: 200px;
+}
+header.on .topHeader .langGroup {color: #fff;}
+.miscLink a:first-child, a:nth-child(2) {display: none;}
+header .miscLink {
+    position: absolute;
+    top: 15px; right: 6%;
+}
+.miscLink a > img {width: 25px;}
+
+.gnb li ul li {display: none;}
+
+.langGroup, .gnb {display: none;}
+
+/* swiper-slide */
+.swiper.mainBanner .bg_txt {
+    text-align: center;
+    top: 22%; left: 0;
+}
+.swiper.mainBanner .small_txt {font-size: 13px; margin-bottom: 15px;}
+.swiper.mainBanner .big_txt {font-size: 22px;}
+
+
+header {height: 70px;}
+.topHeader .logo img {width: 120px; margin-bottom:20px;}
+
+
+
+/* best */
+.best {width: 90%;}
+.best img {position: relative; left: 20%; }
+.best_txt {bottom: 12%; left: 11%;}
+.best_txt h2 {font-size: 21px; font-weight: 600;}
+.best_txt .midle_txt {font-size: 13px; margin-bottom: 20px;} 
+.best_txt .bottom_txt {padding: 6px 20px; font-size: 12px; }
+
+/* recommend */
+.recommend {width: 90%; padding-bottom: 80px;}
+.recommend h2 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+.recommend .swiper-button-next:after {
+    margin-left: 10px; 
+    font-size: 14px; 
+    padding: 13px 15px; 
+}
+.recommend .swiper-button-prev:after {
+    margin-right: 10px; 
+    font-size: 14px; 
+    padding: 13px 15px; 
+}
+
+
+/* season */
+.season_area {width:90%; position: relative; height: 900px;}
+.season h2 {text-align: center; font-size: 23px; font-weight: 600;}
+.season_cosmetic li {float: none;}
+
+.season_cosmetic li:nth-child(2) {width: 100%; margin: none; left: 0;}
+.season_cosmetic li:nth-child(2) img {height: 60%;  width: 100%; }
+.season_cosmetic li:nth-child(2) .season_txt {
+    position: relative; 
+    bottom: 0; 
+    left: 0; 
+    text-align: center;
+}
+.season_txt .bb {
+    font-size: 20px;
+    margin: 10px 0;
+} 
+.season_txt .mm {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.season_txt .big_tt {
+    font-size: 15px; 
+    font-weight: 500; 
+    color: #000;
+
+}
+.season_txt .small_eng {
+    font-size: 8px; 
+    margin: 5px 0;
+    /* text-overflow: ellipsis; 
+    display: -webkit-box; 
+    -webkit-line-clamp: 5; 
+    -webkit-box-orient: vertical; */
+}
+.season_txt .price {color: #000; padding-bottom: 60px;}
+
+
+.season_cosmetic li:first-child {
+    padding: 30px 0;
+    width: 48%; 
+    bottom: -20%; right: 0;
+}
+.season_cosmetic li:first-child img {width: 100%; padding-bottom: 20px;}
+
+.season_cosmetic li:last-child {
+    padding: 30px 0;
+    bottom: -20%; right: 0;
+    width:48%; 
+}
+.season_cosmetic li:last-child img {width: 100%;}
+.season_txt .price {font-size: 13px; padding-top: 15px;}
+
+
+/* store */
+.store {width: 90%; padding-top: 150px;}
+
+.bookchon {width: 100%; float:none;}
+
+.dosan {width: 100%; float:none;}
+.dosan img {width: 100%; margin: 30px 0;}
+
+.big {font-size: 20px; margin-bottom: 20px;}
+.button {padding: 5px 18px; font-size: 12px;}
+
+ /* footer */
+.sns_logo li:first-child {display: none;}
+
+footer {font-size: 14px; position: relative; }
+.tt_footer {
+
+    padding-top: 20px;
+    height: 40px;
+    text-align: center;
+}
+.com li:first-child {border: none;}
+.com li {
+    border-left: 1px solid #ccc; 
+    padding: 0 15px; 
+    display: inline-block;
+}
+.com li:nth-child(4) {font-weight: 600;}
+.com li:last-child {margin-right: 50px;}
+
+
+.sns_logo {position: absolute; left: 35%; }
+.sns_logo li {float: left; padding: 0 5px 10px; }
+
+.bb_footer {
+    width: 100%;
+    height:50%;
+    padding-left: 100px;
+    position: absolute;
+    left: -5%;
+    background: #f7f7f7;
+}
+.bb_footer p:first-child {display: none;}
+.bb_footer p:last-child {
+    position: absolute;
+    left: 8%;
+    font-size: 17px;
+}
+.bb_footer p:last-child img {
+    position: absolute; 
+    display: block;
+   right: -5%; top: 42%;
+   transform: translateY(-50%);
+}
+
+.com {
+    position: absolute;
+    bottom: -90%;
+    width: 100%;
+    background: rgba(196, 196, 196, 0.8);
+    padding: 25px;
+    display: none;
+}
+
+
+.sns {width: 90%;}
+.sns h2 {
+    text-align: center;
+    font-weight: 600;
+}
+.cosmetic1 {height: 300px;}
